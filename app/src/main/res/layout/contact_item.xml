@@ -10,6 +10,14 @@
         android:textSize="20sp"
         android:padding="6dp"/>
 
+    <Button
+        android:id="@+id/new_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/new_contact"
+        android:layout_alignParentRight="true"
+        />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -17,6 +25,7 @@
         android:text="Contact Title"
         android:textSize="16sp"
         android:padding="6dp"
+        android:layout_marginTop="16dp"
         android:layout_below="@id/contact_item_name"
         android:textStyle="italic"/>
 
@@ -27,6 +36,7 @@
         android:text="Contact Phone"
         android:textSize="16sp"
         android:padding="6dp"
+        android:layout_marginTop="16dp"
         android:layout_below="@id/contact_item_name"
         android:textStyle="italic"
         android:layout_alignParentRight="true"/>
